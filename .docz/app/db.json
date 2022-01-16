@@ -1,0 +1,562 @@
+{
+  "config": {
+    "title": "wsjls-design",
+    "description": "My awesome app using docz",
+    "menu": [
+      "开始",
+      "组件"
+    ],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "files": "./components/**/*.{md,mdx}",
+    "dest": "wsjls-site",
+    "typescript": true
+  },
+  "entries": [
+    {
+      "key": "components/alert/index.mdx",
+      "value": {
+        "name": "Alert 提示",
+        "menu": "组件",
+        "id": "ceae3abcc96c825f7b04c098ac7ba5d9",
+        "filepath": "components/alert/index.mdx",
+        "fullpath": "D:\\1_a_workspace\\a_zhaowa\\wsjls\\wsjls-design\\components\\alert\\index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "components-alert-index",
+        "route": "/components-alert-index",
+        "headings": [
+          {
+            "slug": "alert",
+            "depth": 1,
+            "value": "Alert"
+          },
+          {
+            "slug": "api",
+            "depth": 2,
+            "value": "API"
+          },
+          {
+            "slug": "基本用法",
+            "depth": 2,
+            "value": "基本用法"
+          },
+          {
+            "slug": "不同种类",
+            "depth": 2,
+            "value": "不同种类"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/nav-bar/index.mdx",
+      "value": {
+        "name": "NavBar 导航栏",
+        "route": "/nav-bar",
+        "menu": "组件",
+        "sidebar": true,
+        "id": "ea3913ec7fdfe44fb9194edb0205b5a3",
+        "filepath": "components/nav-bar/index.mdx",
+        "fullpath": "D:\\1_a_workspace\\a_zhaowa\\wsjls\\wsjls-design\\components\\nav-bar\\index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "components-nav-bar-index",
+        "headings": [
+          {
+            "slug": "navbar",
+            "depth": 1,
+            "value": "NavBar"
+          },
+          {
+            "slug": "api",
+            "depth": 2,
+            "value": "API"
+          },
+          {
+            "slug": "基本用法",
+            "depth": 2,
+            "value": "基本用法"
+          },
+          {
+            "slug": "多种用法展示",
+            "depth": 2,
+            "value": "多种用法展示"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "components/index.ts",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "components",
+          "methods": [],
+          "props": {
+            "onNavigateBack": {
+              "defaultValue": {
+                "value": "() => {}"
+              },
+              "description": "返回上一页面点击事件",
+              "name": "onNavigateBack",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "() => void"
+              }
+            },
+            "title": {
+              "defaultValue": {
+                "value": ""
+              },
+              "description": "导航栏标题",
+              "name": "title",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "string"
+              }
+            },
+            "statusBarHeight": {
+              "defaultValue": {
+                "value": "isAndroid ? 25 : 20"
+              },
+              "description": "(default: 20px) 状态栏高度",
+              "name": "statusBarHeight",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "number"
+              }
+            },
+            "height": {
+              "defaultValue": {
+                "value": "isAndroid ? 48 : 44"
+              },
+              "description": "(default: iOS 44px, Android 48px) 导航栏高度",
+              "name": "height",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "number"
+              }
+            },
+            "backgroundColor": {
+              "defaultValue": {
+                "value": "#fff"
+              },
+              "description": "(default: #fff) 导航栏背景颜色，如 #000000",
+              "name": "backgroundColor",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "string"
+              }
+            },
+            "textColor": {
+              "defaultValue": {
+                "value": "#000"
+              },
+              "description": "(default: black) 导航栏标题颜色",
+              "name": "textColor",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "string"
+              }
+            },
+            "fontSize": {
+              "defaultValue": {
+                "value": 17
+              },
+              "description": "(default: 17px) 导航栏标题字体大小",
+              "name": "fontSize",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "number"
+              }
+            },
+            "fontWeight": {
+              "defaultValue": {
+                "value": "bold"
+              },
+              "description": "(default: bold) 导航栏标题字重",
+              "name": "fontWeight",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "number | \"normal\" | \"bold\" | \"bolder\" | \"lighter\""
+              }
+            },
+            "navigationBarTextStyle": {
+              "defaultValue": {
+                "value": "#000000"
+              },
+              "description": "(default: #000000) 前景颜色值，包括按钮、状态栏的颜色，仅支持 #ffffff 和 #000000",
+              "name": "navigationBarTextStyle",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"#ffffff\" | \"#000000\""
+              }
+            }
+          }
+        },
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "Alert",
+          "methods": [],
+          "props": {
+            "kind": {
+              "defaultValue": {
+                "value": "info"
+              },
+              "description": "提示类型",
+              "name": "kind",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/alert/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/alert/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\""
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "components/nav-bar/index.tsx",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "navbar",
+          "methods": [],
+          "props": {
+            "onNavigateBack": {
+              "defaultValue": {
+                "value": "() => {}"
+              },
+              "description": "返回上一页面点击事件",
+              "name": "onNavigateBack",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "() => void"
+              }
+            },
+            "title": {
+              "defaultValue": {
+                "value": ""
+              },
+              "description": "导航栏标题",
+              "name": "title",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "string"
+              }
+            },
+            "statusBarHeight": {
+              "defaultValue": {
+                "value": "isAndroid ? 25 : 20"
+              },
+              "description": "(default: 20px) 状态栏高度",
+              "name": "statusBarHeight",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "number"
+              }
+            },
+            "height": {
+              "defaultValue": {
+                "value": "isAndroid ? 48 : 44"
+              },
+              "description": "(default: iOS 44px, Android 48px) 导航栏高度",
+              "name": "height",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "number"
+              }
+            },
+            "backgroundColor": {
+              "defaultValue": {
+                "value": "#fff"
+              },
+              "description": "(default: #fff) 导航栏背景颜色，如 #000000",
+              "name": "backgroundColor",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "string"
+              }
+            },
+            "textColor": {
+              "defaultValue": {
+                "value": "#000"
+              },
+              "description": "(default: black) 导航栏标题颜色",
+              "name": "textColor",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "string"
+              }
+            },
+            "fontSize": {
+              "defaultValue": {
+                "value": 17
+              },
+              "description": "(default: 17px) 导航栏标题字体大小",
+              "name": "fontSize",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "number"
+              }
+            },
+            "fontWeight": {
+              "defaultValue": {
+                "value": "bold"
+              },
+              "description": "(default: bold) 导航栏标题字重",
+              "name": "fontWeight",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "number | \"normal\" | \"bold\" | \"bolder\" | \"lighter\""
+              }
+            },
+            "navigationBarTextStyle": {
+              "defaultValue": {
+                "value": "#000000"
+              },
+              "description": "(default: #000000) 前景颜色值，包括按钮、状态栏的颜色，仅支持 #ffffff 和 #000000",
+              "name": "navigationBarTextStyle",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/nav-bar/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"#ffffff\" | \"#000000\""
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "components/alert/index.tsx",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "alert",
+          "methods": [],
+          "props": {
+            "kind": {
+              "defaultValue": {
+                "value": "info"
+              },
+              "description": "提示类型",
+              "name": "kind",
+              "parent": {
+                "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/alert/index.tsx",
+                "name": "Props"
+              },
+              "declarations": [
+                {
+                  "fileName": "D:/1_a_workspace/a_zhaowa/wsjls/wsjls-design/components/alert/index.tsx",
+                  "name": "Props"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\""
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
