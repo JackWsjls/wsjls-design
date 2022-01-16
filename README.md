@@ -1,29 +1,34 @@
 # Getting Started with Create React App
 
 ## 初始化项目
-npx create-react-app wsjls-design --template typescript
+npx方式 
+```bash
+npx create-react-app wsjls-design --template typescript 
+```
+yarn方式 
+```bash
 yarn create create-react-app wsjls-design --template typescript
+```
 
 与docz相同 storybook 
+<!-- node 版本 12.16.0 版本，将 node 的版本下降到 12.10.0 -->
 
-node 版本 12.16.0 版本，将 node 的版本下降到 12.10.0
-
-## ERR_REQUIRE_ESM error in gatsby-recipes
-Temporary workaround
-lock remark-mdx version in gatsby-recipes/package.json
+## ERR_REQUIRE_ESM error in gatsby-recipes 
+node 版本降到 v16.5.0 
+Temporary workaround 
+lock remark-mdx version in gatsby-recipes/package.json 
+版本要求 
 ```js
 - ^2.0.0-next.4
 * 2.0.0-next.9
 
 -"node-sass": "^7.0.1",
-*
+*"node-sass": "6.0.0",
+
+*"gatsby-plugin-sass": "5.4.0",
 ```
-issues
-https://github.com/gatsbyjs/gatsby/issues/33713
-
-"gatsby-plugin-sass": "^5.4.0",
-
-
+此问题的 issues 
+https://github.com/gatsbyjs/gatsby/issues/33713 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
